@@ -174,8 +174,74 @@ footer {
 	margin-top: -1rem;
 	background-color: #000;
 	height: 20rem;
-	color: #fff;
 	text-align: center;
+}
+#columns {
+	color: #fff;
+	width: 85%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#column1, #column2, #column3, #column4 {
+	border-left: 1px solid #808080;
+	height: 9rem;
+	padding-top: 2rem;
+	vertical-align: top;
+	float: left;
+	margin-top: 2rem;
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+#column1 {
+	border-left: none;
+}
+
+#column1 ul li a {
+	color: #fff;
+	font-size: 0.6rem;
+	text-transform: uppercase;
+}
+footer a {
+	text-decoration: none;
+}
+#column1 ul {
+	list-style: none;
+	float: left;
+}
+#column2 h3 {
+	margin-left: 2rem;
+	margin-top: -2rem;
+	font-size: 0.7rem;
+}
+#column2 img {
+	margin-left: 2rem;
+	width: 55%;
+}
+#column3 p {
+	font-size: 0.6rem;
+}
+#column3 fieldset {
+	border: none;
+}
+#column3 fieldset input {
+	border: none;
+	padding: 0.5rem;
+	margin-left: 1rem;
+}
+#column3 fieldset button {
+	background-color: #fa5b3c;
+	border: none;
+	padding: 0.5rem;
+	color: #fff;
+	margin-right: -1rem;
+}
+#column4 {
+	padding-left: 2rem;
+}
+#column4 a {
+	color: #fff;
+	font-size: 2rem;
+	margin: 0.5rem;
 }
 footer p {
 	font-size: 0.7rem;
