@@ -1,0 +1,182 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: helvetica;
+}
+#header {
+	text-transform: uppercase;
+	width: 80%;	
+	margin: 0 auto;
+	-webkit-display: flex;
+	display: flex;
+}
+#logo {
+	text-decoration: none;
+	color: #000;
+	font-size: 2rem;
+	margin: 2rem 3rem;
+}
+#header ul {
+	margin-left: -2rem;
+}
+#header ul li{
+	margin-top: 1rem;
+	float: left;
+	padding: 0.5rem;
+	border-left: 1px solid #aaa;
+	list-style-type: none;
+	font-size: 0.8rem
+}
+#header ul li a, #header-box a {
+	color: #555;
+}
+#header ul li:first-child {
+	border: none;
+}
+#header ul li a, #header-box a {
+	text-decoration: none;
+}
+#header ul li a:hover, #header-box a:hover {
+	color: #fa5b3c;
+}
+#header-box {
+	margin-left: 10rem;
+	text-align: center;
+	border-left: 1px solid #aaa;
+	border-right: 1px solid #aaa;
+	font-size: 0.8rem;
+}
+#contact-us {
+	border-bottom: 1px solid #aaa;
+	padding: 1rem 3rem;
+	display: block;
+}
+#login {
+	padding-right: 2rem; 
+	padding-left: 1rem;
+	border-right: 1px solid #aaa;
+}
+#header-box span {
+	/*line-height: 3rem;*/
+	/*background-image:url(images/line.png);*/
+	/*height: 3rem;*/
+	/*width: 1rem;*/
+}
+#cart {
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+#cart span {
+	color: #fa5b3c;
+}
+#main-part {
+	background: url(images/residential-banner-2.jpg) no-repeat scroll top center;
+	height: 29rem;
+}
+
+#main-part #texts{
+	margin: 0 auto;
+	width: 70rem;
+	color: #fff;
+	text-transform: uppercase;
+}
+#texts {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+}
+#introduce {
+	margin-top: 4rem;
+	font-size: 1.3rem;
+	text-align: center;	
+	margin-left: 14rem;
+}
+#introduce p {
+	text-transform: capitalize;
+}
+form {
+	margin-top: 3rem;
+	margin-right: 2rem;
+}
+#texts form input{
+	width: 13rem;
+	height: 1.5rem;
+	margin-bottom: 0.6rem;
+}
+#texts form select {
+	width: 13.5rem;
+	height: 1.9rem;
+	margin-bottom: 0.6rem;
+}
+#texts form textarea {
+	margin-bottom: 0.6rem;
+	width: 13.5rem;
+	height: 3rem;
+}
+#submit-order {
+	padding: 0.8rem;
+	float: right;
+	background-color: #fa5b3c;
+	border: none;
+	cursor: pointer;
+	color: #fff;
+}
+#how-it-works {
+	margin: 0 auto;
+	width: 70rem;
+}
+#how-it-works h2 {
+	text-align: center;
+}
+#boxes {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+	text-align: center;
+	font-size: 1.2rem;
+}
+.box {
+	width: 20rem;
+	margin-bottom: 4rem;
+}
+.box h3 {
+	font-size: 3.5rem;
+}
+.box h3:before, .box h3:after {
+    border-bottom: 1px solid #000;
+    content: '';
+    display: inline-block;
+    height: 2rem;
+    vertical-align: top;
+    width: 4rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box h4 {
+	margin-top: -1rem;
+}
+
+#samples {
+	background-color: #ccc;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: center;
+	justify-content: center;
+	text-align: center;
+}
+#samples img {
+	padding: 4rem 1rem;
+}
+
+footer {
+	margin-top: -1rem;
+	background-color: #000;
+	height: 20rem;
+	color: #fff;
+	text-align: center;
+}
+footer p {
+	font-size: 0.7rem;
+}
